@@ -1,12 +1,12 @@
 body {
     font-family: sans-serif;
-    background-color: #f4f6f9; /* Cambiato per un background più neutro */
+    background-color: #e5f4f9; /* Azzurro chiaro per un background freddo */
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    color: #333333; /* Colore testo per i titoli più scuro */
+    color: #2a3d66; /* Blu scuro per i titoli */
 }
 
 button {
@@ -14,13 +14,13 @@ button {
 }
 
 .btn-primary {
-    background-color: #28a745; /* Nuovo colore verde */
-    border-color: #28a745;
+    background-color: #4db8e6; /* Blu chiaro per i bottoni */
+    border-color: #4db8e6;
 }
 
 .btn-primary:hover {
-    background-color: #218838; /* Verde più scuro al passaggio del mouse */
-    border-color: #218838;
+    background-color: #3a9ab1; /* Blu più scuro al passaggio del mouse */
+    border-color: #3a9ab1;
 }
 
 .card {
@@ -36,6 +36,7 @@ button {
 .card-title {
     font-size: 1.25rem;
     font-weight: bolder;
+    color: #1c2a44; /* Blu molto scuro per il titolo */
 }
 
 input.form-control {
@@ -51,8 +52,8 @@ input.form-control {
 }
 
 .card-body {
-    border-color: #28a745; /* Nuovo colore verde */
-    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Verde più chiaro per l'ombra */
+    border-color: #4db8e6; /* Colore blu chiaro per il bordo */
+    box-shadow: 0 0 5px rgba(77, 184, 230, 0.5); /* Ombra blu chiara */
 }
 
 .container {
@@ -91,6 +92,7 @@ input.form-control {
 .form-label {
     display: block;
     margin-bottom: 0.5rem;
+    color: #2a3d66; /* Blu scuro per le etichette */
 }
 
 #bottone3 {
@@ -118,28 +120,28 @@ input.form-control {
 
 #cardNascosta5 .card-body {
     padding: 20px;
-    background-color: #e9ecef; /* Colore di sfondo più chiaro */
+    background-color: #f0f8ff; /* Celeste chiaro per il background */
 }
 
 #cardNascosta5 .card-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333333; /* Colore del testo più scuro */
+    color: #1c2a44; /* Blu scuro per il titolo */
 }
 
 #cardNascosta5 .form-label {
     font-weight: bold;
-    color: #333333;
+    color: #1c2a44; /* Blu scuro per l'etichetta */
 }
 
 #cardNascosta5 .btn-primary {
-    background-color: #17a2b8; /* Colore blu/turchese */
-    border-color: #17a2b8;
+    background-color: #4db8e6; /* Blu chiaro */
+    border-color: #4db8e6;
 }
 
 #cardNascosta5 .btn-primary:hover {
-    background-color: #138496; /* Colore blu/turchese più scuro */
-    border-color: #138496;
+    background-color: #3a9ab1; /* Blu più scuro */
+    border-color: #3a9ab1;
 }
 
 #karnaughTable {
@@ -149,7 +151,7 @@ input.form-control {
 #risultatoKarnaugh {
     margin-top: 20px;
     font-size: 1.25rem;
-    color: #333333; /* Colore più scuro per il testo */
+    color: #1c2a44; /* Blu scuro per il risultato */
 }
 
 .karnaugh-cell {
@@ -158,11 +160,11 @@ input.form-control {
 }
 
 .karnaugh-cell.inactive {
-    background-color: #e9ecef; /* Colore di cella inattiva più chiaro */
+    background-color: #e9ecef; /* Celeste molto chiaro per cella inattiva */
 }
 
 .karnaugh-cell.active {
-    background-color: #ff6f61; /* Colore arancione chiaro per cella attiva */
+    background-color: #70d1e8; /* Azzurro chiaro per cella attiva */
     color: #ffffff;
 }
 
@@ -173,12 +175,4 @@ input.form-control {
     margin-top: 10px;
 }
 
-.alert-success {
-    background-color: #d1e7dd; /* Verde chiaro per successo */
-    color: #0f5132; /* Verde scuro per testo */
-    border: 1px solid #badbcc;
-}
-
-.alert-success strong {
-    font-weight: bold;
-}
+.
