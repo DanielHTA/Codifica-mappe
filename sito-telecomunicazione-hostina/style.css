@@ -1,12 +1,12 @@
 body {
     font-family: sans-serif;
-    background-color: #ffffff;
+    background-color: #f4f7fa;  /* Grigio chiaro */
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    color: black;
+    color: #333333;  /* Grigio scuro per i titoli */
 }
 
 button {
@@ -14,12 +14,12 @@ button {
 }
 
 .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #0069d9;  /* Blu più caldo */
+    border-color: #0069d9;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #0056b3;  /* Blu più scuro */
     border-color: #0056b3;
 }
 
@@ -27,10 +27,14 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
+    background-color: #ffffff;  /* Bianco per le card */
 }
 
 .card-body {
     padding: 20px;
+    background-color: rgba(248, 249, 250, 0.95);  /* Grigio chiaro trasparente */
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .card-title {
@@ -48,11 +52,6 @@ input.form-control {
 
 .card {
     transition: opacity 0.5s ease;
-}
-
-.card-body {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .container {
@@ -108,6 +107,7 @@ input.form-control {
 #image {
     width: 100%;
 }
+
 #cardNascosta5 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -137,8 +137,8 @@ input.form-control {
 }
 
 #cardNascosta5 .btn-primary:hover {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: #0b5ed7;  /* Blu leggermente più scuro */
+    border-color: #0b5ed7;
 }
 
 #karnaughTable {
@@ -148,7 +148,7 @@ input.form-control {
 #risultatoKarnaugh {
     margin-top: 20px;
     font-size: 1.25rem;
-    color: #000000;
+    color: #333333;  /* Grigio scuro */
 }
 
 .karnaugh-cell {
@@ -161,7 +161,7 @@ input.form-control {
 }
 
 .karnaugh-cell.active {
-    background-color: #ff9900;
+    background-color: #28a745;  /* Verde più luminoso per attivo */
     color: #ffffff;
 }
 
@@ -176,6 +176,10 @@ input.form-control {
     background-color: #d4edda;
     color: #155724;
     border: 1px solid #c3e6cb;
+}
+
+.alert-success strong {
+    font-weight: bold;
 }
 
 .alert-success strong {
