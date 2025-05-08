@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif; /* Cambiato il font a Merriweather */
     background-color: #d1e5f3; /* Azzurro freddo ma più scuro */
     margin: 0;
     padding: 0;
